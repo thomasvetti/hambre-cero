@@ -6,7 +6,7 @@ import {
   
   RotateCcw,
   ShieldCheck,
-  SlidersHorizontal,
+  
   Utensils,
   Users,
 } from "lucide-react";
