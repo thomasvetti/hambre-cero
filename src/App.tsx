@@ -284,20 +284,8 @@ function App() {
           <Activity size={17} />
           Resumen
         </button>
-        <button
-          className={active === "trace" ? "nav active" : "nav"}
-          onClick={() => setActive("trace")}
-        >
-          <SlidersHorizontal size={17} />
-          Trazado de variables
-        </button>
-        <button
-          className={active === "method" ? "nav active" : "nav"}
-          onClick={() => setActive("method")}
-        >
-          <CircleHelp size={17} />
-          Cómo funciona
-        </button>
+        
+       
         
       </aside>
       <main className="main">
@@ -315,13 +303,12 @@ function App() {
               <span className="live-dot" /> MODELO DE ASIGNACIÓN · COLOMBIA
             </div>
             <h1>
-              Distribuir mejor,
+               Inseguridad alimentaria
               <br />
-              <em>priorizar primero.</em>
+              <em>Y el hambre.</em>
             </h1>
             <p>
-              Explora cómo cambian las ayudas cuando modificas la necesidad de
-              cada departamento y el inventario disponible.
+              Optimización algorítmica de la distribución de ayudas alimentarias para hogares en situación de inseguridad alimentaria en Colombia.
             </p>
           </div>
           <div className="hero-mark">
@@ -675,9 +662,7 @@ function App() {
               <p>
                 <b>Lectura del resultado</b>
                 <br />
-                El algoritmo corregido es una regla de priorización para el
-                ejercicio. El algoritmo secuencial representa un escenario
-                hipotético con orden fijo; no es un algoritmo publicado ni
+                el resultado no es un algoritmo publicado ni
                 atribuido al DANE.
               </p>
             </div>
